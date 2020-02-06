@@ -238,8 +238,9 @@ body{
  	padding-bottom: 40px;
  	width: 100%;
  }
- .col-xs-3{
+  .col-xs-3 {
  	box-sizing: border-box;
-    margin-right: 20px;
+ 	margin-left: auto;
+    margin-right: auto;
     margin-top: 20px;
 }

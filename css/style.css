@@ -10,7 +10,7 @@ body{
 	height: 100%;
 	position: absolute;
 	z-index: 3;
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(0, 0, 0, 0.4);
 }
 .slides-navigation {
 	z-index: 6;

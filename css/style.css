@@ -1,8 +1,18 @@
-body{
+body, html{
 	font-size: 14px;
 	color: #333;
 	background-color: #fff;
 	letter-spacing: 1px;
+	height: 100%;
+}
+
+.bg {
+    background-image: url(../img/s0.jpg);
+    height: 100%;
+    background-position: 80% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .overlay {
@@ -67,6 +77,7 @@ body{
 }
 .titleMessage .heading .main {
 	font-size: 50px;
+	margin-top: 20px;
 	margin-left: 20px;
   	margin-right: 20px;
 }

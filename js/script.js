@@ -12,7 +12,7 @@ $(document).ready(function() {
 	});
 
 	var typed = new Typed(".typed", {
-		strings: ["Software Engineer.    Innovator.    Creator."],
+		strings: ["Software Engineer.    Creator.    Leader."],
 		//strings: ["Software Engineer.", "Innovator.", "Creator."],
 		typeSpeed: 70,
 		loop: true,

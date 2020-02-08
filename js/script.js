@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	
+
 	jQuery(window).scroll(function(){
 		var fromtop = jQuery(window).scrollTop();
 		jQuery(".bg").css({"background-position-y": fromtop+"px"});

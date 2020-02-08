@@ -9,7 +9,7 @@ body, html{
 .bg {
     background-image: url(../img/s0.jpg);
     height: 100%;
-    background-position: 80% 100%;
+
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

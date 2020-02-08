@@ -5,13 +5,11 @@ body, html{
 	letter-spacing: 1px;
 	height: 100%;
 }
-
 .bg {
     background-image: url(../img/s0.jpg);
-    height: 100vh;
-    background-position: 80% center;
+    height: 100%;
+    background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
 }
 

@@ -1,18 +1,18 @@
-body, html{
+body, html {
 	font-size: 14px;
 	color: #333;
 	background-color: #fff;
 	letter-spacing: 1px;
 	height: 100%;
+	width: 100%;
 }
-
 .bg {
     background-image: url(../img/s0.jpg);
     height: 100%;
     background-position: 80% 100%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
+    background-attachment: scroll;
 }
 
 .overlay {

@@ -183,14 +183,16 @@ body, html {
 	opacity: 1;
   	transition: 0.5s;
  }
- .owl-carousel.owl-drag .owl-item:hover{
-	-ms-transform: scale(1.1); /* IE 9 */
-  	-webkit-transform: scale(1.1); /* Safari 3-8 */
-  	transform: scale(1.1); 
-  	opacity: 1;
-  	transition: 0.5s;
-  	background-size: contain;
-  	margin-top: 70px;
+ @media screen and (min-width: 450px) {
+	 .owl-carousel.owl-drag .owl-item:hover{
+		-ms-transform: scale(1.1); /* IE 9 */
+	  	-webkit-transform: scale(1.1); /* Safari 3-8 */
+	  	transform: scale(1.1); 
+	  	opacity: 1;
+	  	transition: 0.5s;
+	  	background-size: contain;
+	  	margin-top: 70px;
+	}
 }
 .owl-carousel .owl-stage-outer {
     margin-top: 15px;
